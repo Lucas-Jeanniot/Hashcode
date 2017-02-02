@@ -1,0 +1,10 @@
+public class Hashcode {
+
+	public static void main(String[] args) {
+	 int gameBoard[][]={{4,5,5,3,3},{5,1,2,3,6},{2,4,4,1,6}}; //array for the initial game board
+	 	for(int i = 0; i<3; i++){
+	 		for(int j = 0; j<5; j++){
+	 			System.out.print(gameBoard[i][j]); //printing out the initial game board
+	 		}
+	 		System.out.println();
+	 		}
